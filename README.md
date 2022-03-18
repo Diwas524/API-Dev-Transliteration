@@ -3,7 +3,7 @@ FastAPI is an excellent tool for putting your machine learning models into produ
 
 Website : [Click Here for Tutorial](https://lcalcagni.medium.com/deploy-your-fastapi-to-aws-ec2-using-nginx-aa8aa0d85ec7)
 
-Important code to deploy
+# Important code to deploy
 
 
 python3 -m uvicorn main:app
