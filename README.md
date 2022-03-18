@@ -12,6 +12,12 @@ sudo service nginx restart
 
 fuser -k 8000/tcp #kill or restart port
 
+# To run api in background
+
+sudo apt install npm
+
+sudo npm install pm2@latest -g   #install pm2
+
 pm2 start "uvicorn main:app" --name=process1
 
 pm2 delete 0 1 2 
